@@ -1,0 +1,27 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "Cache chave-valor sobre FaaS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cache",
+    "faas",
+    "serverless",
+    "aws",
+    "lambda"
+  ],
+  "author": "João Paulo Vital Santos, Flávio Rubens de Carvalho Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.863.0",
+    "compression": "^1.7.4",
+    "consistent-hashing": "^0.3.0",
+    "express": "^4.17.1",
+    "lru-cache": "^6.0.0",
+    "promise-redis": "0.0.5",
+    "public-ip": "^4.0.4"
+  }
+}

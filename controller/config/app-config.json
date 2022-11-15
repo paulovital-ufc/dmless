@@ -1,0 +1,15 @@
+{
+    "region": "sa-east-1",
+    "applicationBucket": "dmless-storage-functions",
+    "readFunctionCodePackage": "YOUR_FUNCTION_READ_CODE_PACKAGE.zip",
+    "writeFunctionCodePackage": "YOUR_FUNCTION_WRITE_CODE_PACKAGE.zip",
+    "readFunctionPrefix": "readFunction",
+    "writeFunctionPrefix": "writeFunction",
+    "queueNamePrefix": "fifoQueue",
+    "cloudFunctionMemorySize": 128,
+    "pollSize": 3,
+    "appTable": "appData",
+    "configTable": "configTable",
+    "APIResourceName": "keys",
+    "lambdaExecutionRole": "LAMBDA_ROLE_ARN_HERE"
+}

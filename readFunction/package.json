@@ -1,0 +1,14 @@
+{
+  "name": "readfunction",
+  "version": "1.0.0",
+  "description": "instancia de cache do DMless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Paulo Vital, Flávio Rubens de Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "lru-cache": "^6.0.0"
+  }
+}
