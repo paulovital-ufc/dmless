@@ -5,4 +5,4 @@ DMless é uma abordagem que explora a memória de funções serverless na criaç
 - Universidade Federal do Ceará (UFC)
 - Programa de Mestrado e Doutorado em Ciência da Computação (MDCC)
 - Aluno: João Paulo Vital Santos
-- Orientador: Prof. Dr. Flávio Rubens de Carvalho Sousa
+- Orientador: [Prof. Dr. Flávio Rubens de Carvalho Sousa](http://lattes.cnpq.br/0771942436828005)
