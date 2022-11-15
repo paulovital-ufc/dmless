@@ -218,17 +218,3 @@ module.exports = {
   deleteFunctionConcurrency,
   getFunctionConcurrency
 }
-
-//createFunction('001', 'write').then(console.log)
-
-//createEventSourceMapping('001', 'arn:aws:sqs:sa-east-1:882669899363:readFunction001.fifo')
-
-//deleteEventSourceMapping('c1d959a5-a616-49e4-84a7-69a1a4fe7fed').then(console.log)
-
-// invokeFunction('001', {
-//   "user_key": "client11_chave11",
-//   "timestamp": 1615861148178}, 'read', true).then(console.log)
-
-//updateEventSourceMapping('c3a63b48-e7a7-423f-8514-0436e3d66fc7', false)
-
-//deleteFunctionConcurrency('003').then(console.log)
