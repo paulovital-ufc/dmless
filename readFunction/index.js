@@ -276,15 +276,6 @@ async function getDataFromProxy(functionName) {
                 try {
                     console.log('Saving cache object')
                     cache.load(JSON.parse(dataFromProxy))
-
-                    //let length = cache[Object.getOwnPropertySymbols(cache)[8]].length
-                    // console.log('DEPOIS DE GET: ', length)
-                    // console.log('client1_user83ab0aef: ', cache.get('client1_user83ab0aef'))
-                    // console.log('client2_user33479eed: ', cache.get('client2_user33479eed'))
-                    // console.log('client3_userd92335b0: ', cache.get('client3_userd92335b0'))
-                    // console.log('client4_userafe1a1c4: ', cache.get('client4_userafe1a1c4'))
-                    // console.log('client5_user68104886: ', cache.get('client5_user68104886'))
-
                 } catch (error) {
                     console.log('Algum problema com os dados enviados para cache', error)
                 }

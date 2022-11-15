@@ -199,9 +199,3 @@ module.exports = {
     createTable,
     query
 }
-
-//updateTable('appTable', true, 1, 10).then(console.log).catch(console.log)
-//updateTable('appTable', true, 1, 10).then(console.log).catch(console.log)
-//updateTable('appTable').then(console.log).catch(console.log)
-
-//createTable('appTable', true).then(console.log)
